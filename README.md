@@ -13,19 +13,19 @@ A REST API built with Spring Boot, Hibernate JPA, MySQL and Docker.
 
 ## Project Structure
 
-src/
+```
+src/main/java/com/example/studentapp/
 ├── controller/
-│   └── StudentController.java    # REST endpoints
+│   └── StudentController.java
 ├── service/
-│   └── StudentService.java       # Business logic
+│   └── StudentService.java
 ├── repository/
-│   └── StudentRepository.java    # Database access
+│   └── StudentRepository.java
 ├── model/
-│   └── Student.java              # Entity / DB table
+│   └── Student.java
 └── exception/
-└── StudentNotFoundException.java
-
-
+    └── StudentNotFoundException.java
+```
 ## Run with Docker
 
 Make sure Docker Desktop is running, then:
